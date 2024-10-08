@@ -27,31 +27,56 @@ Format Flag: 3108{nama_tempat}
 
 https://postimg.cc/7fWKJdsW*
 
+Hint: JOHOR
+
 **Answer:**  
 On this question it gives this picture.
+![Sejarah Penubuhan UMNO](https://i.postimg.cc/sDfWnRJY/sejarah-penubuhan-umno-5.jpg)
 
+As the hint given is Johor, so I go to ChatGPT and ask about the location of the Malayan Union protest in Johor.
+![Image Description](https://i.postimg.cc/x8Z9yHRF/Malayan-Union.png)
 
-
-
----
-
-## Question 3: [Insert Question Title Here]
-
-**Question:**  
-*What is the third question you're trying to answer?*
-
-**Answer:**  
-Provide the answer or explanation for the third question here.
+**Flag:** 3108{Istana_Besar}
 
 ---
 
-## Question 4: [Insert Question Title Here]
+## Question 3: Gallery
 
 **Question:**  
-*What is the fourth question you're trying to answer?*
+*Where am I ? 
+
+Spaces in the gallery name should be replaced with underscores (_). For example, if the gallery is named National Art Gallery, the flag should be written as: CTF{National_Art_Gallery}.
+
+Format Flag: CTF{Gallery_Name}
+
+https://drive.google.com/file/d/1aw66UkDVQWr13KBuShpJriacNxZD0ccp/view?usp=sharing*
 
 **Answer:**  
-Provide the answer or explanation for the fourth question here.
+On this question it give this picture.
+![Image Description](https://i.postimg.cc/8cJ2GYRt/IMG20240409135215.jpg)
+
+I used Google to search for this image and found similar images related to Ilham Gallery.
+![Image Description](https://i.postimg.cc/6QSsPwRy/gallery.jpg)
+
+**Flag:** CTF{Ilham_Gallery}
+
+---
+
+## Question 4: Gallery2
+
+**Question:**  
+*Could you find the model of the camera used to take the image in question?  
+
+This question is a follow-up to the previous one. Please refer to the image provided in Question 3.
+
+For example, if the model is Samsung Galaxy S21, the flag should be written as: CTF{Samsung_Galaxy_S21}.
+
+Format Flag: CTF{Model}*
+
+Hint: Use appropriate tools to identify the camera model from the metadata of the image provided. 
+
+**Answer:**  
+As hint have been given this question is about metadata, so I use Exif Pilot as the tools to discover the metadata of this image. 
 
 ---
 
