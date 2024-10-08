@@ -16,13 +16,22 @@ As in the question has mention RawSEC so I go to LInkedln and search about RawSE
 
 ---
 
-## Question 2: [Insert Question Title Here]
+## Question 2: Malayan Union
 
 **Question:**  
-*What is the second question you're trying to answer?*
+*KAMI BANTAH! KAMI BANTAH!
+
+Malayan Union perlu dihapuskan! Kami mahu Raja-Raja kami semula! Mesej bergambar ini untuk menyampaikan berita ini kepada pihak atasan!
+
+Format Flag: 3108{nama_tempat}         
+
+https://postimg.cc/7fWKJdsW*
 
 **Answer:**  
-Provide the answer or explanation for the second question here.
+On this question it gives this picture.
+
+
+
 
 ---
 
