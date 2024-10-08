@@ -1,15 +1,18 @@
  # Project Write-Up: Questions and Answers
 
-This document contains answers to six key questions from the [source website](https://drive.google.com/file/d/1atZLCKMPR3K_p_cRwA4Pal-0eCgdEhv9/view?usp=drive_link).
+This document contains answers to six key questions from the https://tryhackme.com/jr/workshoposint.
 
-## Question 1: [Insert Question Title Here]
+## Question 1: RawSEC
 
 **Question:**  
-*What is the first question you're trying to answer?*
+*RawSEC aktif dalam mengedalikan acara CTF di seluruh Malaysia. Mereka telah berjaya mengadakan beberapa siri CTF yang telah berlangsung di Utara, Selantan, Sentral dan juga Pantai Timur. Apakah nama CTF paling terbaru diadakan oleh RawSEC dan di manakah acara itu berlangsung?                                                                                                     Format flag: 3108{namactf_namatempat}*
 
 **Answer:**  
-Provide the answer or explanation here. You can also link to an image or file from Google Drive if necessary, like this:  
-![Flickr Photo](https://live.staticflickr.com/65535/54047517603_fbc05a35fa_c.jpg)
+As in the question has mention RawSEC so I go to LInkedln and search about RawSEC and get the flag.  
+[![Image Description](https://live.staticflickr.com/65535/54047517603_163cf5f7d9_c.jpg)](https://www.flickr.com/photos/201584002@N06)
+
+**Flag:** 3108{rembulan_UCTATI}
+
 
 ---
 
