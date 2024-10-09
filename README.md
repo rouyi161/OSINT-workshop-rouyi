@@ -76,31 +76,43 @@ Format Flag: CTF{Model}*
 Hint: Use appropriate tools to identify the camera model from the metadata of the image provided. 
 
 **Answer:**  
-As hint have been given this question is about metadata, so I use Exif Pilot as the tools to discover the metadata of this image. 
+Since the hint mentioned that this question is about metadata, I used Exif Pilot as a tool to discover the image's metadata. By viewing the properties and selecting the Exif tab, all the image details were displayed.
+![Image Description](https://i.postimg.cc/1XMH3k6D/model.png) 
+
+**Flag:** CTF{OPPO_A76}
 
 ---
 
-## Question 5: [Insert Question Title Here]
+## Question 5: Gallery3
 
 **Question:**  
-*What is the fifth question you're trying to answer?*
+*Which date and time was the photo taken? 
+
+This question is a follow-up to the previous one. Please refer to the image provided in Question 3.
+
+Format Flag: CTF{YYYY-MM-DD_HH:MM:SS}
+
+Note: HH is the hour in 24-hour format, MM is minutes, and SS is seconds.*
 
 **Answer:**  
-Provide the answer or explanation for the fifth question here.
+For this question also same, date and time also display in Exif.So, I already get the flag.
+![Image Description](https://i.postimg.cc/Xqv5QpGy/datetime.png) 
+
+**Flag:** CTF{2024-04-09_13:52:15}
 
 ---
 
-## Question 6: [Insert Question Title Here]
+## Question 6: Gallery4
 
 **Question:**  
-*What is the sixth question you're trying to answer?*
+*Can you find the registration number of the gallery from the image provided in Question 3?  
+
+Flag Format: CTF{Registration-Number}*
 
 **Answer:**  
-Provide the answer or explanation for the sixth question here.
+As we already know that this image is come from Ilham Gallery. So, we just search registration number gallery from social media such as Instagram or Facebook.
+![Image Description](https://i.postimg.cc/8cn63NMX/registration-number.jpg)
+
+**Flag:** CTF{1300502-A}
 
 ---
-
-### Additional Resources
-
-You can add extra images or references here, or any additional details, such as:
-[![Another Image](https://drive.google.com/uc?export=view&id=EXAMPLE_IMAGE_ID)](https://drive.google.com/file/d/EXAMPLE_IMAGE_ID/view?usp=drive_link)
