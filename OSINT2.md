@@ -70,57 +70,47 @@ After that, I go to LostArt Database and try searching the name and artist of th
 
 ---
 
-## Question 4: Gallery2
+## Question 4: RyoikiTenkai
 
 **Question:**  
-*Could you find the model of the camera used to take the image in question?  
+*Which train lines am I part of? Example: "Hakozaki Line, Meijō Line, and Sennichimae Line" will be IBOH24{HakozakiLine_MeijōLine_SennichimaeLine}
 
-This question is a follow-up to the previous one. Please refer to the image provided in Question 3.
+Image: https://postimg.cc/sBWSmLT2
 
-For example, if the model is Samsung Galaxy S21, the flag should be written as: CTF{Samsung_Galaxy_S21}.
-
-Format Flag: CTF{Model}*
-
-Hint: Use appropriate tools to identify the camera model from the metadata of the image provided. 
+Flag Format: IBOH24{}*
 
 **Answer:**  
-Since the hint mentioned that this question is about metadata, I used Exif Pilot as a tool to discover the image's metadata. By viewing the properties and selecting the Exif tab, all the image details were displayed.
-![Image Description](https://i.postimg.cc/1XMH3k6D/model.png) 
+I get this image on this question 
+![Image Description](https://i.postimg.cc/fb2KznXY/Whats-App-Image-2024-09-28-at-22-39-35-88945beb.jpg) 
 
-**Flag:** CTF{OPPO_A76}
+After figure out, this is about Kitakami Station
+![Image Description](https://i.postimg.cc/cHxMXRbh/station.jpg)
+
+After that, I navigate to wikipedia page and it show the line of statiion and I combine these three lines become flag.
+![Image Description](https://i.postimg.cc/hPW8YR6h/line.png)
+
+**Flag:**  IBOH24{TōhokuShinkansen_TōhokuMainLine_KitakamiLine}
 
 ---
 
-## Question 5: Gallery3
+## Question 5: Airport
 
 **Question:**  
-*Which date and time was the photo taken? 
+*I am an airport, can you find my name?
 
-This question is a follow-up to the previous one. Please refer to the image provided in Question 3.
+Example: "Kuala Lumpur International Airport" will be IBOH24{Kuala_Lumpur_International_Airport}
 
-Format Flag: CTF{YYYY-MM-DD_HH:MM:SS}
+Image: https://postimg.cc/ppKwNVyQ
 
-Note: HH is the hour in 24-hour format, MM is minutes, and SS is seconds.*
-
-**Answer:**  
-For this question also same, date and time also display in Exif.So, I already get the flag.
-![Image Description](https://i.postimg.cc/Xqv5QpGy/datetime.png) 
-
-**Flag:** CTF{2024-04-09_13:52:15}
-
----
-
-## Question 6: Gallery4
-
-**Question:**  
-*Can you find the registration number of the gallery from the image provided in Question 3?  
-
-Flag Format: CTF{Registration-Number}*
+Flag Format: IBOH24{}*
 
 **Answer:**  
-As we already know that this image is come from Ilham Gallery. So, we just search registration number gallery from social media such as Instagram or Facebook.
-![Image Description](https://i.postimg.cc/8cn63NMX/registration-number.jpg)
+On this question, I get this image
+![Image Description](https://i.postimg.cc/QxzhTH3z/Whats-App-Image-2024-10-05-at-15-12-14-86750d8a.jpg)
 
-**Flag:** CTF{1300502-A}
+I use Google Image and figure out it is Haneda Airport from Reddit and I get the flag.
+![Image Description](https://i.postimg.cc/jjKFYJ1w/airport.jpg)
+
+**Flag:** IBOH24{Haneda_Airport} 
 
 ---
