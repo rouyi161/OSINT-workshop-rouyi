@@ -17,6 +17,7 @@ In this challenge, we got an image of location.
 ![Image Description](https://i.postimg.cc/76FCxmLx/jejak.png)
 
 After figure out this is Kota Kayang Museum. In the question mention that Syah have give the review so we search certain word "Kota Kayang Museum" and "3108". After that, we get the flag.
+
 ![Image Description](https://i.postimg.cc/rpcr9bCv/muzium.jpg)
 
 **Flag:** 3108{Muzium_Bersejarah_Perlis}
@@ -24,49 +25,48 @@ After figure out this is Kota Kayang Museum. In the question mention that Syah h
 
 ---
 
-## Question 2: Malayan Union
+## Question 2: Tinggi Lagi
 
 **Question:**  
-*KAMI BANTAH! KAMI BANTAH!
+*Bangunan Tertinggi Di Malaysia yang tidak terbina. Tau tak kat mana?
 
-Malayan Union perlu dihapuskan! Kami mahu Raja-Raja kami semula! Mesej bergambar ini untuk menyampaikan berita ini kepada pihak atasan!
+Gambar: https://postimg.cc/8jR4Hjnv
 
-Format Flag: 3108{nama_tempat}         
+Format Flag: 3108{latitude, longtitude}
 
-https://postimg.cc/7fWKJdsW*
-
-Hint: JOHOR
+Jawapan dalam dua titik perpuluhan*
 
 **Answer:**  
 On this question it gives this picture.
-![Sejarah Penubuhan UMNO](https://i.postimg.cc/sDfWnRJY/sejarah-penubuhan-umno-5.jpg)
+![Image Description ](https://i.postimg.cc/65SPBZrM/tinggi.png)
 
-As the hint given is Johor, so I go to ChatGPT and ask about the location of the Malayan Union protest in Johor.
-![Image Description](https://i.postimg.cc/x8Z9yHRF/Malayan-Union.png)
+I use Google Image and found out this picture is Tradewind Square Tower. After that, I google latitude and longtitude of Tradewind and get the flag.
+![Image Description](https://i.postimg.cc/m2YX2xDn/latitude.png)
 
-**Flag:** 3108{Istana_Besar}
+**Flag:**3108{3.15, 101.71}
 
 ---
 
-## Question 3: Gallery
+## Question 3: LostArt
 
 **Question:**  
-*Where am I ? 
+*There're a lot of masterpiece lost during war times, find the ID of the art for example: IBOH24{Art-ID}
 
-Spaces in the gallery name should be replaced with underscores (_). For example, if the gallery is named National Art Gallery, the flag should be written as: CTF{National_Art_Gallery}.
+Image: https://postimg.cc/Lqx2Z4pK
 
-Format Flag: CTF{Gallery_Name}
-
-https://drive.google.com/file/d/1aw66UkDVQWr13KBuShpJriacNxZD0ccp/view?usp=sharing*
+Flag Format: IBOH24{}*
 
 **Answer:**  
-On this question it give this picture.
-![Image Description](https://i.postimg.cc/8cJ2GYRt/IMG20240409135215.jpg)
+On this question I get this picture.
+![Image Description](https://i.postimg.cc/qRTRSgDR/Whats-App-Image-2024-09-28-at-22-39-34-2af2fd14.jpg)
 
-I used Google to search for this image and found similar images related to Ilham Gallery.
-![Image Description](https://i.postimg.cc/6QSsPwRy/gallery.jpg)
+After Google Image, I gained the artist and the name of this art.
+![Image Description](https://i.postimg.cc/65fcxdbJ/art.jpg)
 
-**Flag:** CTF{Ilham_Gallery}
+After that, I go to LostArt Database and try searching the name and artist of this art. Then, I get the flag. 
+![Image Description](https://i.postimg.cc/QCR8xbLJ/art-id.png)
+
+**Flag:**IBOH24{583920}
 
 ---
 
